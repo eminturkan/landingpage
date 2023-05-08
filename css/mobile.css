@@ -1,0 +1,15 @@
+#navbar {
+    flex-direction: column; /*başlık ile navbar linklerini alt alta getirdik*/
+    padding-top: 0.5rem; /*navbarın içeriğini üsttten 1 rem kadar uzaklaştırdık*/
+    padding-bottom: 0.5rem;
+    overflow: hidden; /*hover ile üzerine gelince durum değişikliğinden oluşan taşmayı önler*/
+    height: 80px; /*navbar yüksekliğini belirledik*/
+
+}
+
+#about .items {
+    flex-direction: column;
+}
+#about .items .item {
+    width: 100%;
+}

@@ -1,0 +1,1 @@
+![site göreseli](images/../landng.png)

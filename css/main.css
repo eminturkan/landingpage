@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+html {
+    font-family: "Open Sans", sans-serif;
+}
+
+/*Navbar Section*/
+#navbar {
+    color: #fff; /*yazılar beyaza döner*/
+    display: flex; /*navbar linklerini sağ tarafa en sona gönderir*/
+    justify-content: space-between; /*sağ tarafa yanına sıralar*/
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+}
+#navbar ul {
+    list-style-type: none; /*madde işaretleri kalkar*/ 
+    display: flex; /*yan yana geldi linkler*/
+    align-items: center;
+}
+#navbar ul li a {
+    padding: 0.75rem; /*navbardaki linklerin arasına boşluk */
+}
+
+#navbar ul li a:hover {
+    background: gray; /*linke hover tanımladığımız için üzerine geldiğimizde renk değiştirecek sadece*/
+    border-radius: 4px; /* köşelere ovallik verecek*/
+}
+
+/* Home Section */
+
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid black;
+}
+
+
+#home img {
+    max-width: 20%; /* içinde bulunduğu blockun tamamını kaplar*/
+    height: auto; /* yüksekliğini(height'i width 'e göre ayarlar*/
+    border-radius: 100%; /*fotoğrafı tam olarak oval yaptık (height biliniyorsa height kadar ölçü vererk de tam oval yapılabilir)*/
+}
+
+/* #home .name {
+    text-align: center;
+} bunu direk index.html içinde <div class="name text-center(globaldeki text-center'ı kullanmış olduk eğer globalde olmasaydı text-align: center; şeklinde yazılırdı)"> diyerek de yazıyı ortalayabiliriz ki öyle yaptık */
+
+#home .name h2 {
+    margin-bottom: 0.75rem;
+}
+#home .name p {
+    opacity: 0.6;
+    font-style: italic;
+
+}
+
+/* About */
+
+#about {
+    color: #fff;
+    padding: 1rem;
+}
+#about .items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#about .items .item {
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+}
+#about .items .item:hover {
+    color: gray;
+    opacity: 0.6;
+}
+
+/* Courses */
