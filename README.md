@@ -1,2 +1,1 @@
-# landingpage
-Taslak Landing Page
+![site göreseli](images/../landng.png)
